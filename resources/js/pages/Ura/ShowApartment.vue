@@ -369,13 +369,13 @@ export default {
               class="img-fluid rounded shadow-sm"
             />
           </div>
-          <div v-else class="image-container mb-4">
+          <!-- <div v-else class="image-container mb-4">
             <img
               src="img/no-image.png"
               alt="Immagine non disponibile"
               class="img-fluid rounded shadow-sm"
             />
-          </div>
+          </div> -->
         </div>
       </div>
 

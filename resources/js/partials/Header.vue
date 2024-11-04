@@ -201,7 +201,7 @@ export default {
               class="contLogo d-flex align-items-center"
               :to="{ name: 'home' }"
             >
-              <img class="logo" src="Boolnb_circle.png" alt="airbnb photo" />
+              <!-- <img class="logo" src="Boolnb_circle.png" alt="airbnb photo" /> -->
               <strong class="text-logo"> BoolBnb </strong>
             </router-link>
           </div>
