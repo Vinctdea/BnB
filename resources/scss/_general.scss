@@ -1,0 +1,92 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+
+    &:hover {
+        color: blue;
+        text-decoration: underline;
+    }
+}
+
+// .modal-backdrop {
+//     display: none !important;
+// }
+
+ul {
+    list-style-type: none;
+}
+
+img {
+    max-width: 100%;
+}
+// .sponsorCard {
+    // border: 3px solid rgb(205, 127, 50);
+//   }
+
+.contLoader{
+
+    position: absolute;
+    top: 40%;
+    left: 48%;
+    transform: translate(-50%, 50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* HTML: <div class="loader"></div> */
+.loader {
+
+    width: 50px;
+    aspect-ratio: 1;
+    display: grid;
+    border-radius: 50%;
+    background: conic-gradient(#25b09b 25%,#f03355 0 50%,#514b82 0 75%,#ffa516 0);
+    animation: l22 2s infinite linear;
+  }
+  .loader::before,
+  .loader::after {
+     content: "";
+     grid-area: 1/1;
+     margin: 15%;
+     border-radius: 50%;
+     background: inherit;
+     animation: inherit;
+  }
+  .loader::after {
+     margin: 25%;
+     animation-duration: 3s;
+  }
+  @keyframes l22 {
+    100% {transform: rotate(1turn)}
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//da riga 47 alessandra
